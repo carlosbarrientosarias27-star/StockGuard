@@ -1,10 +1,3 @@
-"""Módulo de validación de datos para StockGuard.
-
-Proporciona funciones para validar cantidad y precio de artículos
-antes de persistirlos en el inventario.
-"""
-
-
 def validate_qty(qty: int) -> bool:
     """Valida que la cantidad de un ítem sea un entero positivo.
 

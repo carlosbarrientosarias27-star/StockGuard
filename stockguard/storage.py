@@ -8,7 +8,7 @@ import json
 import os
 from typing import Any
 
-from stockguard.validator import validate_qty, validate_price
+from .validator import validate_qty, validate_price
 
 INVENTORY_FILE = 'inventory.json'
 
